@@ -1,0 +1,96 @@
+header {
+    background: lightslategray;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.logo {
+    padding-left: 130px;
+}
+
+h1 {
+    float: left;
+    background: lightseagreen;
+    font-family: sans-serif;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    height: 80px;
+    margin: 0;
+}
+
+.navLinks {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 130px;
+}
+
+li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-image: url('images/papyrus.png');
+    background-repeat: repeat;
+    background-color: #cccccc;
+}
+
+.pageContent {
+    background: white;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    border-radius: 6px;
+}
+
+h2 {
+    padding-bottom: 25px;
+    margin: 0px;
+    color: lightseagreen;
+    font-family: sans-serif;
+}
+
+p {
+    color: #333;
+    line-height: 1.5em;
+    margin-top: 0;
+    font-size: 16px;
+    font-family: georgia;
+}
+
+#ryanPic {
+    height: 150px;
+    float: left;
+    padding-right: 25px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: lightslategray;
+    color: white;
+    height: 80px;
+    border-top: 10px solid;
+    border-color: lightseagreen;
+    font-family: sans-serif;
+}
